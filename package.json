@@ -1,0 +1,29 @@
+{
+  "name": "koa2-trailer",
+  "version": "1.0.0",
+  "description": "koa2实现的预告片项目",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ml1994/koa2-trailer.git"
+  },
+  "keywords": [
+    "movie",
+    "trailer"
+  ],
+  "author": "macq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ml1994/koa2-trailer/issues"
+  },
+  "homepage": "https://github.com/ml1994/koa2-trailer#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "koa": "^2.7.0",
+    "pug": "^2.0.3"
+  }
+}
